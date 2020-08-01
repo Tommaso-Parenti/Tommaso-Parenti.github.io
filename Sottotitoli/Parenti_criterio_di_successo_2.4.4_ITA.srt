@@ -1,0 +1,292 @@
+﻿1
+00:00:00,000 --> 00:00:04,678
+Il criterio di cui parleremo oggi è il 2.4.4
+
+2
+00:00:04,678 --> 00:00:07,000
+cioè lo scopo del collegamento.
+
+3
+00:00:07,500 --> 00:00:10,900
+Oggi parleremo, per prima cosa, della comprensione del criterio
+
+4
+00:00:10,900 --> 00:00:13,700
+cioè cerchiamo di capire
+
+5
+00:00:13,700 --> 00:00:18,700
+lo scopo di questo criterio e i vantaggi.
+
+6
+00:00:18,700 --> 00:00:22,700
+Poi parliamo delle tecniche, cioè come applicare il criterio.
+
+7
+00:00:22,700 --> 00:00:25,700
+E infine parliamo del codice
+
+8
+00:00:25,700 --> 00:00:29,660
+cioè comprendiamo il criterio a livello di codice.
+
+9
+00:00:36,600 --> 00:00:38,700
+Cerchiamo di capirlo meglio.
+
+10
+00:00:38,700 --> 00:00:42,000
+Questo criterio serve per aiutare
+
+11
+00:00:42,000 --> 00:00:46,700
+l'utente a capire lo scopo di ciascun collegamento
+
+12
+00:00:46,700 --> 00:00:49,700
+o meglio, a farli capire quali link
+
+13
+00:00:49,700 --> 00:00:55,700
+deve seguire, soprattutto per farli comprendere la pagina.
+
+14
+00:00:55,700 --> 00:00:59,000
+Se noi abbiamo diversi collegamenti in una pagina
+
+15
+00:00:59,000 --> 00:01:00,900
+o un elenco di collegamenti
+
+16
+00:01:00,900 --> 00:01:04,360
+ovviamente deve essere chiaro a cosa servono.
+
+17
+00:01:04,360 --> 00:01:08,700
+Facciamo un esempio di applicazione del criterio.
+
+18
+00:01:08,700 --> 00:01:12,500
+Se noi per esempio abbiamo un elenco di formati di un libro
+
+19
+00:01:12,500 --> 00:01:15,800
+cioè HTML, PDF e MP3
+
+20
+00:01:15,800 --> 00:01:17,800
+e a tutti ci mettessimo
+
+21
+00:01:18,800 --> 00:01:21,800
+nel testo del collegamento, il titolo del libro
+
+22
+00:01:21,800 --> 00:01:25,800
+un utente screen-reader si troverebbe in difficoltà
+
+23
+00:01:25,800 --> 00:01:28,990
+infatti non sarebbe molto esplicito il formato.
+
+24
+00:01:29,000 --> 00:01:33,800
+Perciò nel primo link possiamo mettere il titolo del libro
+
+25
+00:01:33,800 --> 00:01:36,800
+nel secondo e nel terzo potremmo mettere gli altri formati
+
+26
+00:01:36,800 --> 00:01:38,900
+in questo caso PDF e MP3.
+
+27
+00:01:40,000 --> 00:01:43,900
+Con questo criterio ovviamente abbiamo dei vantaggi
+
+28
+00:01:43,900 --> 00:01:46,200
+per le persone con disabilità.
+
+29
+00:01:46,200 --> 00:01:50,200
+Infatti le persone per esempio con disabilità visive
+
+30
+00:01:50,200 --> 00:01:53,900
+saranno in grado di determinare lo scopo del collegamento
+
+31
+00:01:53,900 --> 00:01:58,770
+grazie alle varie alternative testuali compatibili con lo screen-reader.
+
+32
+00:01:58,770 --> 00:02:03,970
+Oppure persone con limitazioni cognitive non saranno disorientate
+
+33
+00:02:03,970 --> 00:02:06,570
+da molteplici mezzi di navigazione
+
+34
+00:02:06,570 --> 00:02:09,570
+e da contenuti difficili da comprendere.
+
+35
+00:02:09,570 --> 00:02:14,270
+Pensiamo anche a coloro che hanno problemi di movimento
+
+36
+00:02:14,270 --> 00:02:19,570
+Eviteranno delle sequenze di tasti per tornare alla pagina iniziale
+
+37
+00:02:19,570 --> 00:02:23,000
+perchè magari hanno sbagliato a cliccare su un collegamento.
+
+38
+00:02:28,570 --> 00:02:32,570
+La prima tecnica che possiamo trovare è la G91
+
+39
+00:02:32,570 --> 00:02:36,100
+cioè fornire un testo di collegamento
+
+40
+00:02:36,100 --> 00:02:38,570
+che descrive lo scopo di esso.
+
+41
+00:02:38,570 --> 00:02:44,670
+Si indica grazie all'utilizzo della tag a e dell'attributo href.
+
+42
+00:02:44,670 --> 00:02:46,870
+Vediamo un esempio.
+
+43
+00:02:46,870 --> 00:02:52,890
+Problema: se io inserisco un link l'utente non sa se
+
+44
+00:02:52,890 --> 00:02:56,890
+cliccarlo si o no, non sa lo scopo.
+
+45
+00:02:56,890 --> 00:02:59,890
+Qual'è la soluzione?
+
+46
+00:02:59,890 --> 00:03:05,890
+Utilizzare una tag a, che permette di inserire un link
+
+47
+00:03:05,890 --> 00:03:08,890
+e un testo che chiarisce lo scopo.
+
+48
+00:03:09,990 --> 00:03:12,890
+Guardiamo "maggiori informazioni".
+
+49
+00:03:12,890 --> 00:03:19,290
+Allora, oltre al codice, possiamo trovare
+
+50
+00:03:19,290 --> 00:03:24,290
+il "Per controllare che la tecnica sia utilizzata". Cosa dobbiamo fare?
+
+51
+00:03:24,290 --> 00:03:29,520
+Verificare che il testo del collegamento descriva lo scopo del collegamento.
+
+52
+00:03:29,520 --> 00:03:35,900
+Ricordiamoci che il nostro obbiettivo è proprio quello di chiarire lo scopo
+
+53
+00:03:36,900 --> 00:03:38,900
+Andiamo a vedere l'esempio!
+
+54
+00:03:38,900 --> 00:03:41,900
+Qui abbiamo un link cliccabile.
+
+55
+00:03:41,900 --> 00:03:47,900
+Come si vede c'è un testo che descrive cosa fa, quindi se noi ci clicchiamo
+
+56
+00:03:47,900 --> 00:03:55,900
+ovviamente ci aprirà la pagina che ci interessa e che l'utente voleva cliccare.
+
+57
+00:03:55,900 --> 00:03:59,900
+Possiamo vedere lo stesso esempio senza il criterio.
+
+58
+00:04:00,790 --> 00:04:04,900
+Come notiamo senza un testo chiaro che chiarisca lo scopo
+
+59
+00:04:04,900 --> 00:04:11,900
+non si sa se l'utente vuole cliccarlo si o no.
+
+60
+00:04:12,230 --> 00:04:17,250
+La seconda tecnica è la G53 cioè di identificare lo scopo
+
+61
+00:04:17,250 --> 00:04:21,660
+di un collegamento usando il testo del collegamento combinato 
+
+62
+00:04:21,660 --> 00:04:29,000
+a una frase allegata, cioè prima del collegamento spieghiamo essenzialmente
+
+63
+00:04:29,000 --> 00:04:31,800
+con una piccola descrizione a cosa serve.
+
+64
+00:04:32,260 --> 00:04:33,800
+Andiamo a vedere meglio.
+
+65
+00:04:33,800 --> 00:04:38,700
+Qual'è il problema? Se io inserisco un link l'utente non sa se cliccarlo
+
+66
+00:04:38,700 --> 00:04:40,700
+si o no, non sa lo scopo!
+
+67
+00:04:40,700 --> 00:04:45,500
+Soluzione: utilizzare una tag a che permette di inserire un link
+
+68
+00:04:45,500 --> 00:04:50,000
+ma prima di essa inserire una piccola descrizione.
+
+69
+00:04:50,460 --> 00:04:52,700
+Andiamo a vedere maggiori informazioni!
+
+70
+00:04:53,430 --> 00:04:56,930
+Allora, per controllare che la tecnica sia utilizzata bisogna
+
+71
+00:04:56,930 --> 00:04:59,500
+-Verificare che il link sia parte di una frase
+
+72
+00:04:59,500 --> 00:05:02,450
+-Verificare che il testo del link combinato con 
+
+73
+00:05:02,450 --> 00:05:06,860
+il testo della frase che lo racchiuda, descriva lo scopo.
+
