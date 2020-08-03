@@ -28,10 +28,11 @@ body {
   .sidebar a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
     color: #818181;
     display: block;
     transition: 0.3s;
+    padding-bottom: 15px;
   }
 
   .sidebar .text {
@@ -115,4 +116,32 @@ body {
   .Testo h3{
     padding-bottom: 10px;
     font-size: 32px;
+  }
+
+  h5 {
+    font-style: italic;
+    font-size: 23px;
+  }
+
+  a {
+    color:rgb(180, 180, 180);
+    transition: 0.5s;
+    text-decoration: none;
+  }
+  a:hover {
+    color:rgb(100, 109, 108);
+    transition: 0.5s;
+  }
+
+  .Footer {
+    background-color: rgba(0, 0, 0, 0.877);
+    color:white;
+  }
+
+  .ultimoparagrafo {
+    padding-bottom: 90px;
+  }
+
+  .Footer p {
+    font-size: 19px;
   }
