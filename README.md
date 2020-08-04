@@ -1,5 +1,5 @@
 # Documentazione dei sottotitoli del WCAG 2.1.
-Creata da Tommaso Parenti
+Creata da Tommaso Parenti <br>
 Classe: 3 inf°A / 4 inf°A
 
 ## EDITOR
