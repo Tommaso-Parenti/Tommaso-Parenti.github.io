@@ -3,7 +3,7 @@ Creata da Tommaso Parenti <br>
 Classe: 3 inf°A / 4 inf°A
 
 ## EDITOR
-L'editor che ho utilizzato e' "Aegisub", un editor per i sottotitoli gratis.
+L'editor che ho utilizzato è  "Aegisub", un editor per i sottotitoli gratis.
 
 <img src="https://github.com/Tommaso-Parenti/Tommaso-Parenti.github.io/blob/master/Immagini/Aegisub.png" width="100" height="100" >
 
@@ -12,7 +12,7 @@ L'editor che ho utilizzato e' "Aegisub", un editor per i sottotitoli gratis.
 Il primo punto di forza è la possibilità di scrivere i sottotitoli nel mentre che si guarda il video, infatti ti seleziona in modo "automatico" il tempo dove inserire i sottotitoli. Inoltre un secondo punto di forza è il fatto che per fare i sottotitoli tramite questo programma ci metti molto poco tempo.
 
 #### *I punti di debolezza*
-L'unico punto di debolezza che ho trovato è quello di imparare ad utilizzarlo, infatti ho dovuto usare vari tutorial, ma poi, come ho precedentemente detto, è diventato molto semplice.
+L'unico punto di debolezza che ho trovato è quello di imparare ad utilizzarlo, infatti ho dovuto seguire vari tutorial, ma poi, come ho precedentemente detto, è diventato molto semplice.
 
 
 
