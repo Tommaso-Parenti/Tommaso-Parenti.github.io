@@ -14,6 +14,7 @@
         <a href="#main"  onclick="toggle()" class="text"><span class="material-icons">home</span></a>
         <a href="#Editor"  onclick="toggle()" class="text">Editor</a>
         <a href="#GitHub"  onclick="toggle()" class="text">GitHub</a>
+        <a href="#Video"  onclick="toggle()" class="text">Video</a>
         <a href="#Informazioni"  onclick="toggle()" class="text">Informazioni e link</a>
     </div>
 
@@ -34,7 +35,7 @@
                         <h5>I punti di forza</h5>
                         <p class="Paragrafo">Il primo punto di forza è la possibilità di scrivere i sottotitoli nel
                             mentre che si guarda il video, infatti ti seleziona in modo "automatico" il tempo dove
-                            inserire i sottotitoli. Inoltre un secondo punto di forza è il fatto che per fare i
+                            inserire i sottotitoli. In questo modo sono riuscito ad avere una sincronizzazione perfetta tra video e sottotitoli. Inoltre un secondo punto di forza è il fatto che per fare i
                             sottotitoli tramite questo programma ci si impiega poco tempo.</p>
                         <h5>I punti di debolezza</h5>
                         <p class="Paragrafo">L'unico punto di debolezza che ho trovato è quello di imparare ad
@@ -48,10 +49,15 @@
             </table>
         </div>
 
-        <div class="Testo ultimoparagrafo" id="GitHub">
+        <div class="Testo" id="GitHub">
             <h3>GitHub</h3>
             <p class="Paragrafo">Inizialmente non capivo molto bene Github, però poi dopo vari tutorial e aiuto da parte
-                dei miei compagni ho iniziato a comprenderlo.</p>
+                dei miei compagni ho iniziato a comprenderlo. Il progetto è stato creato in modo che tramite i vari commit si può vedere a livello cronologico la creazione del sito, infatti ogni modifica o file creato creavo un commit in modo da avere una cronologia completa. </p>
+        </div>
+
+        <div class="Testo ultimoparagrafo" id="Video">
+            <h3>Video</h3>
+            <p class="Paragrafo"> Il video è stato caricato su youtube ed è disponibile con i sottotitoli, infatti in basso a destra possiamo notare l'icona dei sottotitoli. Cliccandola è possibile disattivarli o attivarli, inoltre se si clicca sulle impostazioni si può cambiare la lingua. <br>  </p><iframe width="850" height="450" src="https://www.youtube.com/embed/g7KJzBVKjnI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
         </div>
 
         <div class="Testo Footer" id="Informazioni">
@@ -70,7 +76,7 @@
         function openNav() {
             document.getElementById("mySidebar").style.width = "250px";
             document.getElementById("main").style.marginLeft = "250px";
-            document.getElementById("main").style.opacity = "0.5";
+            document.getElementById("main").style.opacity = "0.8";
         }
 
         function closeNav() {
