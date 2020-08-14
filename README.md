@@ -18,3 +18,6 @@ L'unico punto di debolezza che ho trovato è quello di imparare ad utilizzarlo, 
 
 ## GITHUB
 Inizialmente non capivo molto bene Github, però poi dopo vari tutorial e aiuto da parte dei miei compagni ho iniziato a comprenderlo.
+
+## Sito
+<a href="https://tommaso-parenti.github.io/">Clicca qui</a>
