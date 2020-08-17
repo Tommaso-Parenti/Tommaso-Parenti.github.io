@@ -156,6 +156,10 @@ img {
   padding-left: 120px;
 }
 
+.video {
+  text-align: center;
+}
+
 @media (max-width: 1024px) { 
   .sidebar {
       padding-top: 15px;
@@ -199,4 +203,10 @@ img {
   .Footer p {
       padding-bottom: 0;
   }
+  
+  iframe {
+    width:90%;
+    height:300px;
+  }
+
 }
